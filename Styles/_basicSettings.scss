@@ -62,11 +62,7 @@ h4:hover {
   h2 {
     font-size: 3.5rem;
     &:hover {
-      @include fontNtext(
-        $font-size: 4rem,
-        $color: rgb(247, 15, 235),
-        $txtShdw: $h2Hover
-      );
+      @include fontNtext($color: rgb(247, 15, 235), $txtShdw: $h2Hover);
       transition: 2s;
     }
   }
@@ -76,7 +72,7 @@ h4:hover {
   h3 {
     font-size: 2.5rem;
     &:hover {
-      @include fontNtext($font-size: 3rem, $color: rgb(0, 195, 255));
+      @include fontNtext($color: rgb(0, 195, 255));
     }
   }
 }
@@ -86,7 +82,7 @@ h4:hover {
   h4 {
     font-size: 2rem;
     &:hover {
-      @include fontNtext($font-size: 2.5rem, $color: rgb(15, 180, 0));
+      @include fontNtext($color: rgb(15, 180, 0));
     }
   }
 }
@@ -100,7 +96,7 @@ h5 {
   );
   margin-bottom: 1rem;
   &:hover {
-    @include fontNtext($font-size: 3rem, $color: $hoverTitle);
+    @include fontNtext($color: $hoverTitle);
     transition: 2s;
   }
 }
