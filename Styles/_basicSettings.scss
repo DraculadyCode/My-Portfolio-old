@@ -123,6 +123,13 @@ h5 {
     transition: 1s;
     border: rgb(255, 0, 242) outset 0.5rem;
   }
+  .fa-square-github:hover {
+    @include fontNtext($font-size: 3rem, $color: rgb(89, 0, 255));
+    box-shadow: $mainShadow;
+    transition: 1s;
+    padding: 1rem;
+    border: rgb(255, 0, 242) outset 0.5rem;
+  }
   p {
     @include displaySet(
       $dspl: flex,
