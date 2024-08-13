@@ -114,6 +114,14 @@ h5 {
   );
   i {
     @include fontNtext($font-size: xx-large, $color: $primaryColor);
+    border-radius: 3rem;
+    padding: 0.5rem;
+  }
+  .bx:hover {
+    @include fontNtext($font-size: 3rem, $color: rgb(89, 0, 255));
+    box-shadow: $mainShadow;
+    transition: 1s;
+    border: rgb(255, 0, 242) outset 0.5rem;
   }
   p {
     @include displaySet(

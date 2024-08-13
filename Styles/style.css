@@ -152,6 +152,15 @@ h5:hover {
 .paragraph-div i {
   font-size: xx-large;
   color: #a009f7;
+  border-radius: 3rem;
+  padding: 0.5rem;
+}
+.paragraph-div .bx:hover {
+  font-size: 3rem;
+  color: rgb(89, 0, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: 1s;
+  border: rgb(255, 0, 242) outset 0.5rem;
 }
 .paragraph-div p {
   z-index: 900;
