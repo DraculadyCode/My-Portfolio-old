@@ -126,7 +126,8 @@ nav ul {
     $zIndx: 1000 !important
   );
   @include sizesNgaps($top: 75%, $left: 50%, $min-width: 25rem);
-  background-color: #b48ee5;
+  background-color: #b48ee5b7;
+  backdrop-filter: blur(5px);
   border-radius: 2rem;
   transform: translateX(-50%);
   li {
