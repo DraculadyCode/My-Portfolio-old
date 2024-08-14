@@ -7,7 +7,6 @@
 .portfolio-items {
   @include displaySet($dspl: flex, $jusCont: space-between, $flxWrp: wrap);
   @include sizesNgaps($padding: 0 1rem, $margin: 1.5rem 0 0 0);
-
   .portfolio-item {
     @include sizesNgaps(
       $padding: 1rem,
@@ -23,6 +22,7 @@
       $borderRds: 1.5rem,
       $boxShdw: $mainShadow
     );
+    backdrop-filter: blur(5px);
     transition: transform 1s;
     &:hover {
       @include fontNtext(
@@ -66,6 +66,7 @@
         transition: 1s;
       }
     }
+
     .portfolio-item-icons {
       @include displaySet($dspl: flex, $jusCont: center);
       margin-top: auto;
@@ -88,6 +89,11 @@
         border-radius: 1rem;
       }
     }
+  }
+}
+.items-2 {
+  .portfolio-item {
+    background-color: #73d0fc;
   }
 }
 // Show all part
