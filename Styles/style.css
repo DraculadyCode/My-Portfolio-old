@@ -138,6 +138,7 @@ h5:hover {
 /* Settings and designs for all paragraphs in the website */
 .paragraph-div {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: left;
   padding: 0.5rem;
@@ -148,6 +149,7 @@ h5:hover {
   border: 0.2rem solid rgb(165, 166, 168);
   border-radius: 4rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  flex-direction: column;
 }
 .paragraph-div i {
   font-size: xx-large;
@@ -156,19 +158,18 @@ h5:hover {
   padding: 0.5rem;
 }
 .paragraph-div .bx:hover {
-  font-size: 3rem;
   color: rgb(89, 0, 255);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transform: scale(1.1);
   transition: 1s;
-  border: rgb(255, 0, 242) outset 0.5rem;
+  border: rgb(255, 0, 242) outset 0.2rem;
 }
 .paragraph-div .fa-square-github:hover {
-  font-size: 3rem;
   color: rgb(89, 0, 255);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transform: scale(1.1);
   transition: 1s;
-  padding: 1rem;
-  border: rgb(255, 0, 242) outset 0.5rem;
+  border: rgb(255, 0, 242) outset 0.2rem;
 }
 .paragraph-div p {
   z-index: 900;
@@ -184,6 +185,19 @@ h5:hover {
 .paragraph-div:hover {
   border: 0.4rem solid rgb(165, 166, 168);
   box-shadow: 0.5rem 0.3rem 0.5rem rgb(129, 130, 133);
+}
+.paragraph-div .platforms-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+.paragraph-div .platforms-links a {
+  margin: 1rem 0.4rem;
+}
+.paragraph-div .platforms-links b {
+  font-size: x-large;
 }
 
 /* Settings and design for all buttons in the website */
@@ -858,7 +872,7 @@ html[data-page=index-german] .h4-title {
 }
 .portfolio-items .portfolio-item:hover {
   background-color: rgba(160, 235, 130, 0.5215686275);
-  background-image: radial-gradient(rgb(124, 195, 243), rgba(178, 245, 116, 0.918), rgb(231, 119, 231));
+  background-image: radial-gradient(rgb(93, 180, 238), rgba(157, 235, 85, 0.918), rgb(236, 58, 236));
   border: 1rem outset transparent;
   box-shadow: 0.5rem 0.3rem 0.5rem rgb(129, 130, 133);
   animation: colorWaveAnimation 6s infinite;
@@ -920,6 +934,16 @@ html[data-page=index-german] .h4-title {
 
 .items-2 .portfolio-item {
   background-color: #73d0fc;
+  transition: background-color 0.3s ease;
+}
+.items-2 .portfolio-item:hover {
+  background-image: radial-gradient(rgba(101, 250, 146, 0.671), rgba(62, 211, 248, 0.774), rgba(236, 28, 236, 0.575), rgba(238, 121, 121, 0.493)) !important;
+}
+.items-2 .portfolio-item h5,
+.items-2 .portfolio-item p,
+.items-2 .portfolio-item img,
+.items-2 .portfolio-item i {
+  background-color: transparent;
 }
 
 .show-first {

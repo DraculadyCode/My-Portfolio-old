@@ -94,8 +94,19 @@
 .items-2 {
   .portfolio-item {
     background-color: #73d0fc;
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-image: $portfolioBg2 !important;
+    }
+    h5,
+    p,
+    img,
+    i {
+      background-color: transparent;
+    }
   }
 }
+
 // Show all part
 .show-first {
   display: flex;

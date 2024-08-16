@@ -50,9 +50,15 @@ $imgShadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px
 $mainTextColor: #fff;
 $boxShadow: 0.5rem 0.3rem 0.5rem rgb(129, 130, 133);
 $portfolioBg: radial-gradient(
-  rgb(124, 195, 243),
-  rgba(178, 245, 116, 0.918),
-  rgb(231, 119, 231)
+  rgb(93, 180, 238),
+  rgba(157, 235, 85, 0.918),
+  rgb(236, 58, 236)
+);
+$portfolioBg2: radial-gradient(
+  rgba(101, 250, 146, 0.671),
+  rgba(62, 211, 248, 0.774),
+  rgba(236, 28, 236, 0.575),
+  rgba(238, 121, 121, 0.493)
 );
 $sliderShadow: 0px 1px 2px 0px rgba(137, 45, 223, 0.7),
   1px 2px 4px 0px rgba(81, 224, 15, 0.7),

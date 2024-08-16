@@ -102,7 +102,12 @@ h5 {
 }
 /* Settings and designs for all paragraphs in the website */
 .paragraph-div {
-  @include displaySet($dspl: flex, $jusCont: center, $txtAln: left);
+  @include displaySet(
+    $dspl: flex,
+    $jusCont: center,
+    $txtAln: left,
+    $flxDrc: column
+  );
   @include sizesNgaps($padding: 0.5rem, $margin: 1rem 0);
   @include fontNtext(
     $color: #000000,
@@ -112,23 +117,25 @@ h5 {
     $boxShdw: $mainShadow,
     $fontFmly: "Kalam"
   );
+  flex-direction: column;
   i {
     @include fontNtext($font-size: xx-large, $color: $primaryColor);
     border-radius: 3rem;
     padding: 0.5rem;
   }
   .bx:hover {
-    @include fontNtext($font-size: 3rem, $color: rgb(89, 0, 255));
+    @include fontNtext($color: rgb(89, 0, 255));
     box-shadow: $mainShadow;
+    transform: scale(1.1);
     transition: 1s;
-    border: rgb(255, 0, 242) outset 0.5rem;
+    border: rgb(255, 0, 242) outset 0.2rem;
   }
   .fa-square-github:hover {
-    @include fontNtext($font-size: 3rem, $color: rgb(89, 0, 255));
+    @include fontNtext($color: rgb(89, 0, 255));
     box-shadow: $mainShadow;
+    transform: scale(1.1);
     transition: 1s;
-    padding: 1rem;
-    border: rgb(255, 0, 242) outset 0.5rem;
+    border: rgb(255, 0, 242) outset 0.2rem;
   }
   p {
     @include displaySet(
@@ -147,6 +154,16 @@ h5 {
       $border: 0.4rem solid rgb(165, 166, 168),
       $boxShdw: $boxShadow
     );
+  }
+  .platforms-links {
+    @include displaySet($dspl: flex, $jusCont: space-around, $flxDrc: row);
+    @include sizesNgaps($margin: 0.5rem 0, $padding: 0);
+    a {
+      margin: 1rem 0.4rem;
+    }
+    b {
+      font-size: x-large;
+    }
   }
 }
 
@@ -181,4 +198,8 @@ button {
     width: 120%;
     margin-left: 15%;
   }
+  // .platforms-links {
+  //   justify-content: center;
+  //   flex-direction: column;
+  // }
 }
