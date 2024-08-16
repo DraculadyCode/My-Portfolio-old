@@ -876,7 +876,7 @@ html[data-page=index-german] .h4-title {
 }
 .portfolio-items .portfolio-item:hover {
   background-color: rgba(160, 235, 130, 0.5215686275);
-  background-image: radial-gradient(rgb(93, 180, 238), rgba(157, 235, 85, 0.918), rgb(236, 58, 236));
+  background-image: radial-gradient(rgba(0, 153, 255, 0.5), rgba(123, 255, 0, 0.5), rgba(255, 0, 255, 0.5), rgba(255, 251, 4, 0.5));
   border: 1rem outset transparent;
   box-shadow: 0.5rem 0.3rem 0.5rem rgb(129, 130, 133);
   animation: colorWaveAnimation 6s infinite;
@@ -941,7 +941,7 @@ html[data-page=index-german] .h4-title {
   transition: background-color 0.3s ease;
 }
 .items-2 .portfolio-item:hover {
-  background-image: radial-gradient(rgba(101, 250, 146, 0.671), rgba(62, 211, 248, 0.774), rgba(236, 28, 236, 0.575), rgba(238, 121, 121, 0.493)) !important;
+  background-image: radial-gradient(rgba(101, 250, 146, 0.5), rgba(62, 211, 248, 0.5), rgba(236, 28, 236, 0.5), rgba(238, 121, 121, 0.5)) !important;
   transition: 1s;
 }
 .items-2 .portfolio-item h5,

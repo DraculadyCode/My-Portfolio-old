@@ -50,15 +50,16 @@ $imgShadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px
 $mainTextColor: #fff;
 $boxShadow: 0.5rem 0.3rem 0.5rem rgb(129, 130, 133);
 $portfolioBg: radial-gradient(
-  rgb(93, 180, 238),
-  rgba(157, 235, 85, 0.918),
-  rgb(236, 58, 236)
+  rgba(0, 153, 255, 0.5),
+  rgba(123, 255, 0, 0.5),
+  rgba(255, 0, 255, 0.5),
+  rgba(255, 251, 4, 0.5)
 );
 $portfolioBg2: radial-gradient(
-  rgba(101, 250, 146, 0.671),
-  rgba(62, 211, 248, 0.774),
-  rgba(236, 28, 236, 0.575),
-  rgba(238, 121, 121, 0.493)
+  rgba(101, 250, 146, 0.5),
+  rgba(62, 211, 248, 0.5),
+  rgba(236, 28, 236, 0.5),
+  rgba(238, 121, 121, 0.5)
 );
 $sliderShadow: 0px 1px 2px 0px rgba(137, 45, 223, 0.7),
   1px 2px 4px 0px rgba(81, 224, 15, 0.7),
@@ -76,7 +77,8 @@ $icon-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
   rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
   rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 $icon-bg: #9d62eb;
-$icon-glowing-shadow: inset 0 0 50px #fff, /* inner white */ inset 20px 0 80px #f0f,
+$icon-glowing-shadow: inset 0 0 50px #fff,
+  /* inner white */ inset 20px 0 80px #f0f,
   /* inner left magenta short */ inset -20px 0 80px #0ff,
   /* inner right cyan short */ inset 20px 0 300px #f0f,
   /* inner left magenta broad */ inset -20px 0 300px #0ff,
