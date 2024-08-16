@@ -23,6 +23,8 @@ header {
   animation: colorWaveAnimation 6s infinite;
   &:hover {
     animation: lightingAnimation 3s linear infinite;
+    box-shadow: $mainShadow;
+    border-bottom: 0rem;
   }
   .icon-top-draculady {
     @include displaySet(
@@ -175,6 +177,8 @@ footer {
   animation: colorWaveAnimation 6s infinite;
   &:hover {
     animation: lightingAnimation 3s linear infinite;
+    box-shadow: $mainShadow;
+    border-top: 0.3rem outset rgb(70, 0, 102);
     .logo {
       display: block;
       box-shadow: $icon-glowing-shadow;

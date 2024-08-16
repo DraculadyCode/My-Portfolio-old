@@ -294,6 +294,8 @@ header {
 }
 header:hover {
   animation: lightingAnimation 3s linear infinite;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-bottom: 0rem;
 }
 header .icon-top-draculady {
   padding: 0;
@@ -437,6 +439,8 @@ footer {
 }
 footer:hover {
   animation: lightingAnimation 3s linear infinite;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-top: 0.3rem outset rgb(70, 0, 102);
 }
 footer:hover .logo {
   display: block;
@@ -938,6 +942,7 @@ html[data-page=index-german] .h4-title {
 }
 .items-2 .portfolio-item:hover {
   background-image: radial-gradient(rgba(101, 250, 146, 0.671), rgba(62, 211, 248, 0.774), rgba(236, 28, 236, 0.575), rgba(238, 121, 121, 0.493)) !important;
+  transition: 1s;
 }
 .items-2 .portfolio-item h5,
 .items-2 .portfolio-item p,
@@ -956,6 +961,10 @@ html[data-page=index-german] .h4-title {
 }
 .show-all:target {
   display: flex;
+}
+
+.elements-table tr td i {
+  cursor: pointer;
 }
 
 @media (max-width: 1026px) {

@@ -97,6 +97,7 @@
     transition: background-color 0.3s ease;
     &:hover {
       background-image: $portfolioBg2 !important;
+      transition: 1s;
     }
     h5,
     p,
@@ -117,6 +118,10 @@
   &:target {
     display: flex;
   }
+}
+// Settings for elements table in order to sort projects by elements
+.elements-table tr td i {
+  cursor: pointer;
 }
 // Responsiveness
 @media (max-width: 1026px) {
