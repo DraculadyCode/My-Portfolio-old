@@ -166,7 +166,9 @@ h5 {
     }
   }
 }
-
+.intro-paragraph {
+  flex-direction: row;
+}
 /* Settings and design for all buttons in the website */
 button {
   @include sizesNgaps($padding: 1rem, $margin: 1rem 0 1.5rem);

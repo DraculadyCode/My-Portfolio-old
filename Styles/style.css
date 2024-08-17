@@ -200,6 +200,10 @@ h5:hover {
   font-size: x-large;
 }
 
+.intro-paragraph {
+  flex-direction: row;
+}
+
 /* Settings and design for all buttons in the website */
 button {
   padding: 1rem;
